@@ -21,11 +21,17 @@ master  | [![Build Status](https://travis-ci.com/BaseflowIT/flutter-geolocator.s
 
 ## Usage
 
-To use this plugin, add `geolocator` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/). For example:
+To use this plugin, add 
+`
+geolocator:
+   git: 'git@github.com:mortenboye/flutter-geolocator.git'
+` 
+as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/). For example:
 
 ```yaml
 dependencies:
-  geolocator: '^2.0.1'
+  geolocator:
+    git: 'git@github.com:mortenboye/flutter-geolocator.git'
 ```
 
 > **NOTE:** There's a known issue with integrating plugins that use Swift into a Flutter project created with the Objective-C template. See issue [Flutter#16049](https://github.com/flutter/flutter/issues/16049) for help on integration.
