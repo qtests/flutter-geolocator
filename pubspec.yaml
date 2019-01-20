@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   permission_handler:
-    git: git@github.com:mortenboye/flutter-permission-handler.git
+    git: git@github.com:sidlatau/flutter-permission-handler.git
   google_api_availability: ">=1.0.1 <2.0.0"
 dev_dependencies:
   flutter_test:
