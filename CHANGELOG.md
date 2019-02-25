@@ -1,6 +1,10 @@
+## [4.1.2]
+
+* Allow address parts be nullable in Kotlin side.
+
 ## [4.1.1]
 
-* Migrated Java code to Kotlin.
+* Migrated to Android X.
 
 ## [4.1.0]
 

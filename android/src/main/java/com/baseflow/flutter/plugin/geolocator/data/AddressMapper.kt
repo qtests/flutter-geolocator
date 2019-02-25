@@ -5,8 +5,8 @@ import java.util.*
 
 object AddressMapper {
 
-    fun toHashMapList(addresses: List<Address>): List<Map<String, Any>> {
-        val hashMaps = ArrayList<Map<String, Any>>(addresses.size)
+    fun toHashMapList(addresses: List<Address>): List<Map<String, Any?>> {
+        val hashMaps = ArrayList<Map<String, Any?>>(addresses.size)
 
         for (address in addresses) {
             val hashMap = AddressMapper.toHashMap(address)
@@ -16,8 +16,8 @@ object AddressMapper {
         return hashMaps
     }
 
-    private fun toHashMap(address: Address): Map<String, Any> {
-        val placemark = HashMap<String, Any>()
+    private fun toHashMap(address: Address): Map<String, Any?> {
+        val placemark = HashMap<String, Any?>()
 
         placemark["name"] = address.featureName
         placemark["isoCountryCode"] = address.countryCode
