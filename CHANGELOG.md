@@ -1,3 +1,7 @@
+## [4.1.0]
+
+* Migrated Java code to Kotlin.
+
 ## [4.0.0]
 
 * Migrated to AndroidX.
