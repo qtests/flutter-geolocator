@@ -1,7 +1,6 @@
 package com.baseflow.flutter.plugin.geolocator.tasks;
 
 import android.location.Location;
-import android.support.annotation.NonNull;
 
 import com.baseflow.flutter.plugin.geolocator.data.PositionMapper;
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -10,6 +9,8 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 
 import java.util.Map;
+
+import androidx.annotation.NonNull;
 
 class LastKnownLocationUsingLocationServicesTask extends LocationUsingLocationServicesTask {
     private final FusedLocationProviderClient mFusedLocationProviderClient;
