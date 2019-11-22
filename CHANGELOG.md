@@ -1,3 +1,7 @@
+## [4.1.3]
+
+* Code structure changes.
+
 ## [4.1.2]
 
 * Allow address parts be nullable in Kotlin side.
